@@ -7,7 +7,7 @@
 
 (function main() {
   'use strict'; // Demande un interprétation stricte du code
-  const tempCelcius = prompt('Entrez la température en °C');
+  const tempCelcius = Number( prompt('Entrez la température en °C'));
 
   alert(`${tempCelcius}°C = ${tempCelcius * 9 / 5 + 32}°F`);
 }()); // Main IIFE
